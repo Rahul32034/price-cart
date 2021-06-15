@@ -1,0 +1,10 @@
+<section class="pricing py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4" *ngFor="let c of data">
+        <app-card [heading]="c.heading" [price]="c.price" [user]="c.user" [storage]="c.storage" [subdomain]="c.subdomain" [color1]="c.color1" [color2]="c.color2"[color3]="c.color3"[color4]="c.color4" [fa1]="c.fa1" [fa2]="c.fa2"[fa3]="c.fa3"[fa4]="c.fa4"[fa5]="c.fa5"></app-card>
+      </div>
+      
+    </div>
+  </div>
+</section>
